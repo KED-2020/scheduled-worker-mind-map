@@ -12,3 +12,6 @@ gem 'aws-sdk-sqs'
 # Representers
 gem 'multi_json'
 gem 'roar'
+
+# UTILITIES
+gem 'rake'
