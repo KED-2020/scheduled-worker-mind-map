@@ -18,6 +18,7 @@ GEM
     econfig (2.1.0)
     jmespath (1.4.0)
     multi_json (1.15.0)
+    rake (13.0.3)
     representable (3.0.4)
       declarative (< 0.1.0)
       declarative-option (< 0.2.0)
@@ -33,6 +34,7 @@ DEPENDENCIES
   aws-sdk-sqs
   econfig
   multi_json
+  rake
   roar
 
 RUBY VERSION

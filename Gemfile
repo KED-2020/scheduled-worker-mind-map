@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-ruby File.read('.ruby-version').strip
+ruby '2.7.2'
 
 # Configuration
 gem 'econfig'
@@ -12,3 +12,6 @@ gem 'aws-sdk-sqs'
 # Representers
 gem 'multi_json'
 gem 'roar'
+
+# UTILITIES
+gem 'rake'

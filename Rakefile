@@ -18,6 +18,11 @@ end
 
 desc 'Run the worker (test or production)'
 task :worker do
+  env = ENV['WORKER_ENV'] || 'test'
+  
+  puts "\nRUNNING WORKER WITH LOCAL CONTEXT"
+  puts " Running in #{env} mode"
+
   require_relative './init'
   MindMap::ScheduledWorker.new.call
 end
